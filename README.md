@@ -1,73 +1,27 @@
-# Welcome to your Lovable project
+# 🚨 Civic Radar
 
-## Project info
+**Civic Radar** is a real-time, citizen-powered smart city platform that helps people report, visualize, and stay informed about local incidents — from traffic and roadblocks to civic issues and safety alerts.
 
-**URL**: https://lovable.dev/projects/48dcab5c-f544-46b6-857f-2204bdac9abc
+## 🚀 Key Features
 
-## How can I edit this code?
+- 🗺️ Real-time map with incident pins and live feed updates  
+- 📝 Quick and intuitive incident reporting (with auto-location & photo)  
+- 🔔 Alerts via push notifications, WhatsApp, and SMS  
+- 🏆 Gamified contributions with rewards and badges  
+- 🎙️ Voice assistant integration (Google Assistant) for hands-free updates  
+- 📶 Offline support with JSON bundles and SMS fallback  
 
-There are several ways of editing your application.
+## ⚙️ Tech Stack
 
-**Use Lovable**
+- **Frontend:** ReactJS (PWA), React Native (Mobile), Google Maps SDK  
+- **Backend:** Node.js + Express on Google Cloud Run  
+- **Realtime Data:** Firebase Realtime Database  
+- **Database:** Firestore, Cloud Memorystore (Redis)  
+- **AI Services:** Gemini API, Vertex AI Vision & Forecasting  
+- **Storage:** Google Cloud Storage (media uploads)  
+- **Notifications:** Firebase Cloud Messaging, WhatsApp API, Twilio  
+- **Authentication:** Firebase Auth (OAuth2)  
+- **Security:** HTTPS, input validation, IAM roles  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/48dcab5c-f544-46b6-857f-2204bdac9abc) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/48dcab5c-f544-46b6-857f-2204bdac9abc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🧠 Powered By Google Cloud  
+Built for the Agentic AI Day hackathon using Google's AI and Firebase ecosystem.
